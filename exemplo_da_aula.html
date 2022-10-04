@@ -1,0 +1,52 @@
+<!--
+O DOCTYPE é uma declaração  passada ao navegador do tipo da versão do html que você utilizará, não é necessariamente
+uma tag da linguagem html, essa declaração abaixo indica que está sendo utilizada a versão 5.
+
+Para abrir uma sentença (head, title e body) eu faço <'sentença'> para abrir e </'sentença'> para indicar que eu estou
+fechando a sentença
+
+1°) Declarar o <!DOCTYPE html>
+2°) Abrir e fechar a sentença do html: <html> </html>
+3°) Declarar o meta e atribuir a codificação UTF-8 a função charset <meta charset="UTF-8">
+4°) Declarar o Title abrindo, fechando e colocando o texto desejado, lembrando que esse title é o texto do navegador
+5°) Abrir o body após o fechamento do head e colocar um conteúdo nele
+
+Obsevações:
+-> Algumas tags abrem e não fecham como é o caso da <meta> e da </DOCTYPE>
+-> As tags HTML formam uma hierarquia, sendo lida cima para baixo da esquerda para a direita
+
+As tags HTML são subdivididas em 2 classes principais:
+- Elementos de bloco: Utilizam todo o espaço disponível e começam uma nova linha no documento;
+- Elementos em linha: Utilizam apenas o espaço necessário e não criam uma quebra de linha;
+
+Tags mais utilizadas nos elementos de bloco:
+<html> </html> -> É o elemento de maio nível que está em todas as páginas html;
+<head> </head> -> Possui informações do meta como título e charset da página;
+<body> </body> -> Engloba todos os elemntos que são mostrados na página;
+<h1> </h1>, <h2> </h2>, <h3> </h3>, <h4> </h4>, <h5> </h5>, <h6> </h6> -> Cabeçalhos com níveis de 1 a 6, onde o 1 é de
+maior nível e o 6 de menor nível;
+<div> </div> -> Divisões de seções de conteúdo;
+<p> </p> -> Parágrafo;
+<blockquote> </blockquote> -> Bloco de sitações;
+<ol> </ol> -> Listas ordenadas;
+<ul> </ul> -> Listas não ordenadas;
+<li> </li> ->Item de listas.
+
+Tags mais utilizados nos elementos de linha:
+<strong> </strong> -> Renderiza um texto em negrito;
+<em> </em> -> Renderiza um texto em itálico;
+<a> </a> -> Cria um link para outra página do documento;
+<img> -> Adiciona uma imagem na página.
+
+Tim Berneers-Lee -> Considerado o pai da internet
+-->
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <title>Geek University - Djangooo</title>
+</head>
+<body>
+    <p> Programação Web com Django Framework</p>
+</body>
+</html>
